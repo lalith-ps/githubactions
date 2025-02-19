@@ -3,7 +3,7 @@ name: Terraform Checks
 on:
   pull_request:
     branches:
-      - main  # Adjust this if your default branch is different
+      - dev  # Adjust this if your default branch is different
 
 jobs:
   terraform:
